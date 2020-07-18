@@ -3,3 +3,5 @@ model.add(convolation2D(filters=32,
                         activation= 'relu',
                         ))
                         
+model.add(MaxPooling2D(pool_size=(2,2)))
+#tweak2                  
