@@ -1,0 +1,5 @@
+model.add(convolation2D(filters=32,
+                        kernel size=(2,2),
+                        activation= 'relu',
+                        ))
+                        
